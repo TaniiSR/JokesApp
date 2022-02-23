@@ -22,7 +22,7 @@ import kotlinx.coroutines.launch
 
 abstract class BaseFragment<VB : ViewBinding, VS : IBase.State, VM : IBase.ViewModel<VS>>(@LayoutRes val contentLayoutId: Int) :
     IBase.View<VM>, Fragment(contentLayoutId),
-    OnBackPressedListener {
+    OnBackPressedListener, View.OnClickListener {
 
     protected val activityLauncher: BetterActivityResult<Intent, ActivityResult> =
         BetterActivityResult.registerActivityForResult(this)
@@ -39,6 +39,10 @@ abstract class BaseFragment<VB : ViewBinding, VS : IBase.State, VM : IBase.ViewM
     ): View? {
         mViewBinding = getViewBinding()
         return mViewBinding.root
+    }
+
+    override fun onClick(view: View) {
+        viewModel.onClick(view)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

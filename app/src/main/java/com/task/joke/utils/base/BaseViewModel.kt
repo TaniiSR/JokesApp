@@ -26,7 +26,7 @@ abstract class BaseViewModel<S : IBase.State> : ViewModel(), IBase.ViewModel<S> 
             block()
         }
 
-    fun onClick(view: View) {
+    override fun onClick(view: View) {
         clickEvent.setValue(view.id)
     }
 

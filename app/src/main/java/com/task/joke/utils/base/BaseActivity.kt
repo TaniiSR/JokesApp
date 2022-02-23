@@ -4,6 +4,7 @@ import android.app.Dialog
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.view.Window
 import android.view.WindowManager
 import androidx.activity.result.ActivityResult
@@ -18,7 +19,7 @@ import com.task.joke.utils.extensions.toast
 
 abstract class BaseActivity<VB : ViewBinding, VS : IBase.State, VM : IBase.ViewModel<VS>> :
     IBase.View<VM>,
-    AppCompatActivity() {
+    AppCompatActivity(), View.OnClickListener {
 
     protected val activityLauncher: BetterActivityResult<Intent, ActivityResult> =
         BetterActivityResult.registerActivityForResult(this)
@@ -37,6 +38,10 @@ abstract class BaseActivity<VB : ViewBinding, VS : IBase.State, VM : IBase.ViewM
         mViewBinding = getViewBinding()
         setContentView(mViewBinding.root)
         setObservers()
+    }
+
+    override fun onClick(view: View) {
+        viewModel.onClick(view)
     }
 
     private fun setObservers() {
