@@ -1,0 +1,12 @@
+<resources>
+    <string name="common_hint_search">Search by category</string>
+    <string name="common_text_cancel">Cancel</string>
+
+    <!-- Splash scree-->
+    <string name="screen_splash_display_text_title">Joke app open %1s time(s)</string>
+
+    <!--    Home joke listing-->
+    <string name="screen_home_joke_listing_display_text_tb_title">Joke List</string>
+    <string name="screen_home_joke_listing_display_text_no_result">No result found</string>
+
+</resources>

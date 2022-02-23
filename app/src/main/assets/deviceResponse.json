@@ -1,0 +1,24 @@
+{
+  "devices": [
+    {
+      "id": "1234",
+      "type": "Sensor",
+      "price": 20,
+      "currency": "USD",
+      "isFavorite": false,
+      "imageUrl": "https://www.researchgate.net/profile/Taha-Gorji/pu…0852@1554336220989/Soil-salinity-sensor-Url-5.jpg",
+      "title": "Sensor",
+      "description": "A sensor is a device that produces an output signal for the purpose of sensing of a physical phenomenon. In the broadest definition, a sensor is a device, module, machine, or subsystem that detects events or changes in its environment and sends the information to other electronics, frequently a computer processor."
+    },
+    {
+      "id": "1235",
+      "type": "Thermostat",
+      "price": 25,
+      "currency": "USD",
+      "isFavorite": false,
+      "imageUrl": "https://media.istockphoto.com/photos/male-hand-on-digital-thermostat-set-at-78-degrees-picture-id104507784",
+      "title": "Thermostat",
+      "description": "An automatic device for regulating temperature (as by controlling the supply of gas or electricity to a heating apparatus) also : a similar device for actuating fire alarms or for controlling automatic sprinklers."
+    }
+  ]
+}

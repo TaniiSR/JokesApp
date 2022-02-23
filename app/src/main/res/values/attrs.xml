@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ldPrimaryTextColor" format="reference" />
+    <attr name="ldPrimaryLightText" format="reference" />
+    <attr name="ldWhiteColor" format="reference" />
+    <attr name="ldBlackColor" format="reference" />
+
+    <declare-styleable name="ToolbarView">
+        <attr name="tbStartIconVisibility" format="boolean" />
+        <attr name="tbStartIconEnabled" format="boolean" />
+        <attr name="tbEndIconVisibility" format="boolean" />
+        <attr name="tbEndIconEnabled" format="boolean" />
+        <attr name="tbEndTextVisibility" format="boolean" />
+        <attr name="tbEndTextEnabled" format="boolean" />
+        <attr name="tbBottomLineVisibility" format="boolean" />
+        <attr name="tbStartIconResource" format="reference" />
+        <attr name="tbEndIconResource" format="reference" />
+        <attr name="tbBackgroundResource" format="reference" />
+        <attr name="tbStartIconDrawable" format="reference" />
+        <attr name="tbEndIconDrawable" format="reference" />
+        <attr name="tbBackgroundDrawable" format="reference" />
+        <attr name="tbTitleStyle" format="reference" />
+        <attr name="tbEndTextStyle" format="reference" />
+        <attr name="tbEndText" format="string" />
+        <attr name="tbTitleText" format="string" />
+        <attr name="tbStartIconMarginEnd" format="dimension" />
+        <attr name="tbStartIconMarginStart" format="dimension" />
+        <attr name="tbEndIconMarginStart" format="dimension" />
+        <attr name="tbEndIconMarginEnd" format="dimension" />
+        <attr name="tbEndTextMarginEnd" format="dimension" />
+        <attr name="tbEndTextMarginStart" format="dimension" />
+
+    </declare-styleable>
+
+</resources>

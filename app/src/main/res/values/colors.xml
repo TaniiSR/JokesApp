@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    color primary-->
+    <color name="ldBlueWithAHintOfPurple">#5E35B1</color>
+    <!--    color primary 2-->
+    <color name="ldBlueWithAHintOfPurpleTwo">#5A2FB1</color>
+    <!--    color primary dark-->
+    <color name="ldDarkSlateBlue">#272262</color>
+    <!--    color primary light-->
+    <color name="ldBrightBlue">#007aff</color>
+    <!--    color Grey Dark-->
+    <color name="ldBlueGrey">#9391b1</color>
+    <color name="ldBlack">#FF000000</color>
+    <color name="ldWhite">#FFFFFFFF</color>
+    <color name="ldGrey">#636161</color>
+    <color name="ldGreyLight">#F6F8FE</color>
+    <color name="ldAvailable">#D1C4E9</color>
+    <color name="ldBlueWithAHintOfPurpleFaded">#805E35B1</color>
+
+</resources>

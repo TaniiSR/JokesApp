@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Joke.Widget.TextView.PrimaryColor" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/Joke.TextAppearance.TextView</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/ldPrimaryTextColor</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+
+    <style name="Joke.Widget.TextView.Black" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/Joke.TextAppearance.TextView</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/ldBlackColor</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+
+    <style name="Joke.TextAppearance.TextView" parent="">
+        <item name="fontFamily">@font/ld_roboto_regular</item>
+        <item name="font">@font/ld_roboto_regular</item>
+        <item name="android:fontFamily">@font/ld_roboto_regular</item>
+        <item name="android:font" tools:targetApi="o">@font/ld_roboto_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+
+    <style name="Joke.Widget.TextView.White" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/Joke.TextAppearance.TextView</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/ldWhiteColor</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.PrimaryColor.XXLarge" parent="Joke.Widget.TextView.PrimaryColor">
+        <item name="android:textSize">@dimen/ld_text_size_h2</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.PrimaryColor.XLarge" parent="Joke.Widget.TextView.PrimaryColor">
+        <item name="android:textSize">@dimen/ld_text_size_h3</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.PrimaryColor.Large" parent="Joke.Widget.TextView.PrimaryColor">
+        <item name="android:textSize">@dimen/ld_text_size_h5</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.PrimaryColor.Medium" parent="Joke.Widget.TextView.PrimaryColor">
+        <item name="android:textSize">@dimen/ld_text_size_h6</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.PrimaryColor.Small" parent="Joke.Widget.TextView.PrimaryColor">
+        <item name="android:textSize">@dimen/ld_text_size_h7</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.PrimaryColor.XSmall" parent="Joke.Widget.TextView.PrimaryColor">
+        <item name="android:textSize">@dimen/ld_text_size_h8</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.BlackColor.XLarge" parent="Joke.Widget.TextView.Black">
+        <item name="android:textSize">@dimen/ld_text_size_h3</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.BlackColor.Large" parent="Joke.Widget.TextView.Black">
+        <item name="android:textSize">@dimen/ld_text_size_h5</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.BlackColor.Medium" parent="Joke.Widget.TextView.Black">
+        <item name="android:textSize">@dimen/ld_text_size_h6</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.BlackColor.Small" parent="Joke.Widget.TextView.Black">
+        <item name="android:textSize">@dimen/ld_text_size_h7</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.BlackColor.XSmall" parent="Joke.Widget.TextView.Black">
+        <item name="android:textSize">@dimen/ld_text_size_h8</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.WhiteColor.XLarge" parent="Joke.Widget.TextView.White">
+        <item name="android:textSize">@dimen/ld_text_size_h3</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.WhiteColor.Large" parent="Joke.Widget.TextView.White">
+        <item name="android:textSize">@dimen/ld_text_size_h5</item>
+    </style>
+
+    <style name="JokeWidget.TextView.WhiteColor.Medium" parent="Joke.Widget.TextView.White">
+        <item name="android:textSize">@dimen/ld_text_size_h6</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.WhiteColor.Small" parent="Joke.Widget.TextView.White">
+        <item name="android:textSize">@dimen/ld_text_size_h7</item>
+    </style>
+
+    <style name="Joke.Widget.TextView.WhiteColor.XSmall" parent="Joke.Widget.TextView.White">
+        <item name="android:textSize">@dimen/ld_text_size_h8</item>
+    </style>
+
+</resources>

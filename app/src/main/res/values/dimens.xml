@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Headings -->
+    <dimen name="ld_text_size_h8">0sp</dimen>
+    <dimen name="ld_text_size_h7">12sp</dimen>
+    <dimen name="ld_text_size_h6">14sp</dimen>
+    <dimen name="ld_text_size_h5">16sp</dimen>
+    <dimen name="ld_text_size_h4">18sp</dimen>
+    <dimen name="ld_text_size_h3">19sp</dimen>
+    <dimen name="ld_text_size_h2">22sp</dimen>
+    <dimen name="ld_text_size_h1">26sp</dimen>
+
+
+    <!-- Content -->
+    <dimen name="ld_text_size_c0">5sp</dimen>
+    <dimen name="ld_text_size_c1">9sp</dimen>
+    <dimen name="ld_text_size_c2">10sp</dimen>
+    <dimen name="ld_text_size_c3">11sp</dimen>
+    <dimen name="ld_text_size_c4">12sp</dimen>
+    <dimen name="ld_text_size_c5">13sp</dimen>
+    <dimen name="ld_text_size_c6">14sp</dimen>
+
+
+    <dimen name="ld_base_padding">16dp</dimen>
+    <dimen name="ld_btn_radius">2dp</dimen>
+
+    <!-- MARGIN -->
+    <dimen name="ld_margin_zero_dp">0dp</dimen>
+    <dimen name="ld_margin_one_dp">1dp</dimen>
+    <dimen name="ld_margin_two_dp">2dp</dimen>
+    <dimen name="ld_margin_three_dp">3dp</dimen>
+    <dimen name="ld_margin_extra_small">4dp</dimen>
+    <dimen name="ld_margin_small">8dp</dimen>
+    <dimen name="ld_margin_normal">12dp</dimen>
+    <dimen name="ld_margin_medium">16dp</dimen>
+    <dimen name="ld_margin_large">24dp</dimen>
+    <dimen name="ld_margin_xl">44dp</dimen>
+    <dimen name="ld_margin_xxl">56dp</dimen>
+    <dimen name="ld_margin_xxxl">80dp</dimen>
+
+
+</resources>
